@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#eventBooking{
+	background-color:#faf1e0;
+	width:952px;
+	margin:0 auto;
+}
+#sty1Left{
+	width:270px;
+	float:left;
+	padding:5px 0;
+}
+#sty1Left .header{
+	font-family:Garamond;
+	padding:10px 30px;
+	font-size:24px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+#sty1Left .form{
+	padding:10px 30px;
+}
+#sty1Left select{
+	padding:5px;
+	margin:5px 0;
+	width:200px;
+}
+#sty1Left input{
+	padding:5px;
+	margin:5px 0;
+}
+
+#sty1Left .moreinfo{
+	padding:10px 30px;
+	font-size:15px;
+}
+#sty1Right{
+	float:right;
+	position:relative;
+}
+#sty1Right .imageLayer{
+	position:relative;
+	z-index:5;
+}
+#sty1Right .imgTopLayer{
+	position:absolute;
+	z-index:10;
+	top:5px;
+	
+}
+#sty1Right .header1{
+	font-family:Garamond;
+	padding:20px 10px;
+	position:absolute;
+	top:0;
+	font-size:24px;
+	font-weight:bold;
+	
+}
+#sty1Right .header2{
+	font-family:Garamond;
+	height:64px;
+	padding:20px 10px 0;
+	font-size:24px;
+	font-weight:bold;
+	
+}
+
+#sty1Right .imgMidLayer{
+	position:absolute;
+	z-index:10;
+	top:215px;
+	font-size:18px;
+}
+#sty1Right .imgBtmLayer{
+	position:absolute;
+	z-index:10;
+	top:390px;
+	font-size:18px;
+}
+#sty1Right .layoutNms{
+	text-align:right;
+	float:left;
+	width:160px;
+	padding-right:8px;
+	padding-top:10px;
+	margin:1px;
+}
+
+#sty2Left{
+	float:left;
+}
+#sty2Right{
+	font-size:12px;
+	float:right;
+	width:635px;
+	padding:5px 0;
+}
+#sty2Right .header{
+	font-family:Garamond;
+	padding:10px 20px 5px;
+	font-size:24px;
+	font-weight:bold;
+}
+#sty2Right .description{
+	padding:5px 20px;
+}
+#sty2Right .subHead{
+	font-family:Garamond;
+	padding:5px 20px;
+	font-size:15px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+#sty2Right .form{
+	padding:5px 20px;
+}
+#sty2Right .form .formTxt{
+	margin:5px 0 0;
+}
+#sty2Right input, #sty2Right textarea, #sty2Right select{
+	padding:3px;
+	font-size:90%;
+}
+#sty2Right .button{
+	padding:5px 15px;
+	font-size:80%;
+	color:#6c421c;
+	border:1px solid #cbc7be;
+	background-color:#f1e8d7;
+}
+
+
+.thumb{
+	float:left;
+	cursor:pointer;
+	
+}
+#finalChoices{
+	font-family:Garamond;
+	font-size:15px;
+	font-weight:bold;
+}
+#finalChoices h2{
+	font-size:24px;
+	font-variant:small-caps;
+	margin:10px 0;
+	padding:0;
+}
+
+#finalChoices h3{
+	font-size:16px;
+	font-weight:bold;
+	font-variant:small-caps;
+	margin:10px 0;
+	padding:0;
+	
+}
+
+.blankForm{
+ border:1px dotted #FF0000;
+ background-color:#FFF7F4;
+ padding-top:2px;
+
+}
